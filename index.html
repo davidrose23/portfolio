@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>David Rose - Personal Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">David Rose</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="py-5">
+            <div class="container">
+                <h1>About Me</h1>
+                <p>Aspiring sofware enginner attending coding bootcamp through Rutgers University.  </p>
+            </div>
+        </section>
+        <section id="portfolio" class="py-5 bg-light">
+            <div class="container">
+                <h1>Portfolio</h1>
+                <p>Here are some of my recent projects:</p>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Note-Taker</h5>
+                                <img src="images/note.png" class="card-img-top">
+                                <p class="card-text">This Project is a note-taking application that uses express.js and ejs.
+                                    it allows the user to save notes by storing them in a json file. User can also delete note.
+                                </p>
+                                <a href="https://davids-note-taker.herokuapp.com" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Weather Dashboard</h5>
+                                <img src="images/weather.png" class="card-img-top">
+                                <p class="card-text">This application allows the user to view 5 day weather data for a city 
+                                    they search for.  Also has a history section storing up to 5 recent cities.
+                                </p>
+                                <a href="https://davidrose23.github.io/weather-info-app/" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding Quiz Challenge</h5>
+                                <img src="images/quiz.png" class="card-img-top">
+                                <p class="card-text">This web app is a timed coding quiz allowing the user to store 
+                                    high scores using local storage. </p>
+                                <a href="https://davidrose23.github.io/coding-quiz-challenge/" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Work Day Planner</h5>
+                                <img src="images/planner.png" class="card-img-top">
+                                <p class="card-text">This application is a sheduler for the standard work day.
+                                    Lets you save meetings or whatever might be on your schedule </p>
+                                <a href="https://davidrose23.github.io/work-day-planner/" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Coding Quiz Challenge</h5>
+                                <img src="images/team.png" class="card-img-top">
+                                <p class="card-text">This web app is a timed coding quiz allowing the user to store 
+                                    high scores using local storage. </p>
+                                <a href="https://github.com/davidrose23/team-generator" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <p class="m-0 text-center">Copyright &copy; David Rose, 2023.
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
